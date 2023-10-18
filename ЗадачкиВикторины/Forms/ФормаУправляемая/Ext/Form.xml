@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<Button name="Задачка1_КоличествоВетокНаДереве" id="1">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.Задачка1_КоличествоВетокНаДереве</CommandName>
+			<ExtendedTooltip name="Задачка1_КоличествоВетокНаДеревеРасширеннаяПодсказка" id="2"/>
+		</Button>
+		<Button name="Задачка2_ОбещаниеЖдать" id="3">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.Задачка2_ОбещаниеЖдать</CommandName>
+			<ExtendedTooltip name="Задачка2_ОбещаниеЖдатьРасширеннаяПодсказка" id="4"/>
+		</Button>
+		<Button name="Задачка3_Потоки" id="5">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.Задачка3_Потоки</CommandName>
+			<ExtendedTooltip name="Задачка3_ПотокиРасширеннаяПодсказка" id="6"/>
+		</Button>
+		<Button name="Задачка4_Транзакции" id="7">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.Задачка4_Транзакции</CommandName>
+			<ExtendedTooltip name="Задачка4_ТранзакцииРасширеннаяПодсказка" id="8"/>
+		</Button>
+		<Button name="Задачка5_Запрос" id="9">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.Задачка5_Запрос</CommandName>
+			<ExtendedTooltip name="Задачка5_ЗапросРасширеннаяПодсказка" id="10"/>
+		</Button>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:ExternalDataProcessorObject.ЗадачкиВикторины</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Задачка1_КоличествоВетокНаДереве" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Задачка1 количество веток на дереве</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Задачка1 количество веток на дереве</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Задачка1_КоличествоВетокНаДереве_Команда</Action>
+		</Command>
+		<Command name="Задачка2_ОбещаниеЖдать" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Задачка2 обещание ждать</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Задачка2 обещание ждать</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Задачка2_ОбещаниеЖдать_Команда</Action>
+		</Command>
+		<Command name="Задачка3_Потоки" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Задачка3 потоки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Задачка3 потоки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Задачка3_Потоки_Команда</Action>
+		</Command>
+		<Command name="Задачка4_Транзакции" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Задачка4 транзакции</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Задачка4 транзакции</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Задачка4_Транзакции_Команда</Action>
+		</Command>
+		<Command name="Задачка5_Запрос" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Задачка5 запрос</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Задачка5 запрос</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Задачка5_Запрос_Команда</Action>
+		</Command>
+	</Commands>
+</Form>
